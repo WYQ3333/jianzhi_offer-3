@@ -14,8 +14,17 @@ public:
 
 int main(){
 	vector<int> array = {3,4,5,1,2};
+	int i = 0;
+	for (i = 0; i < array.size(); ++i){
+		cout << array[i] << " ";
+	}
+	cout << endl;
 	Solution s;
 	s.minNumberInRotateArray(array);
+	for (i = 0; i < array.size(); ++i){
+		cout << array[i] << " ";
+	}
+	cout << endl;
 	system("pause");
 	return 0;
 }
