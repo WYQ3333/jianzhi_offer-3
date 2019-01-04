@@ -19,8 +19,8 @@ int main(){
 		cout << array[i] << " ";
 	}
 	cout << endl;
-	Solution s;
-	s.minNumberInRotateArray(array);
+	Solution sss;
+	sss.minNumberInRotateArray(array);
 	for (i = 0; i < array.size(); ++i){
 		cout << array[i] << " ";
 	}
